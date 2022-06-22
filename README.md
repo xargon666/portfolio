@@ -1,4 +1,2 @@
 # My Portfolio
-## First Change
-Something Something something else
-Another change
+## By Chris Pucknell
