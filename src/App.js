@@ -1,10 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { Home } from './pages'
+import './App.css'
 
 const App = () => (
-    <div>
-        <h1>React App</h1>
-    </div>
+    <>
+    <Home/>
+    </>
 )
 
 export default App
