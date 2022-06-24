@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header,Footer} from '../../components'
+import {Header,Footer,Calculator} from '../../components'
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <div className="bg-dark">
         <p>Home</p>
       </div>
+      <Calculator/>
     <Footer/>
     </>
   )
