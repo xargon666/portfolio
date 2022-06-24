@@ -13,7 +13,7 @@
 
 .display {
     display:flex;
-    width:7.5rem;
+    width:100%;
     flex-direction: column;
     justify-content: end;
     border: 1px solid black;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from 'react-bootstrap/Button';
 import "./index.css";
 
 const Calculator = () => {
@@ -56,7 +57,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="("
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     (
                 </button>
@@ -66,7 +67,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value=")"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     )
                 </button>
@@ -76,7 +77,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="%"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     %
                 </button>
@@ -86,7 +87,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="AC"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     AC
                 </button>
@@ -96,7 +97,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="7"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     7
                 </button>
@@ -106,7 +107,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="8"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     8
                 </button>
@@ -116,7 +117,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="9"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     9
                 </button>
@@ -126,7 +127,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="÷"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     ÷
                 </button>
@@ -136,7 +137,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="4"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     4
                 </button>
@@ -146,7 +147,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="5"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     5
                 </button>
@@ -156,7 +157,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="6"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     6
                 </button>
@@ -166,7 +167,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="×"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     ×
                 </button>
@@ -176,7 +177,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="1"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     1
                 </button>
@@ -186,7 +187,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="2"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     2
                 </button>
@@ -196,7 +197,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="3"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     3
                 </button>
@@ -206,7 +207,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="-"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     -
                 </button>
@@ -216,7 +217,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="0"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     0
                 </button>
@@ -226,7 +227,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="."
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     .
                 </button>
@@ -236,7 +237,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="="
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     =
                 </button>
@@ -246,7 +247,7 @@ const Calculator = () => {
                     }}
                     type="button"
                     value="+"
-                    className="btn"
+                    className="btn btn-dark"
                 >
                     +
                 </button>
