@@ -5,26 +5,17 @@
     background-position: top;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-image: url('../../static/img/blue_bg_web.jpg')
+    background-image: url('../../static/img/background/LANDING\ PAGE\ BG.png')
 }
 
 #dev-for-hire {
     position:absolute;
-    content: url('../../static/img/dev_for_hire.png');
+    content: url('../../static/img/logo/WEB\ DEV\ FOR\ HIRE\ MAIN.png');
     width: calc(max(700px,55vw));
-    /* width: 100px; */
     height: auto;
-    left:40vw;
-    top:35vh;
+    left:10vw;
+    top:25vh;
 }
-
-@media screen and (max-height: 700px) {
-    #dev-for-hire {
-        top:45vh;
-        content: url('../../static/img/dev_for_hire_long.png');
-    }
-}
-
 
 @media screen and (max-width: 1300px) {
     #dev-for-hire {
