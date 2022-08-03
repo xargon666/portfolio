@@ -1,0 +1,35 @@
+.bg-image {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url('../../static/img/blue_bg_web.jpg')
+}
+
+#dev-for-hire {
+    position:absolute;
+    content: url('../../static/img/dev_for_hire.png');
+    width: calc(max(700px,55vw));
+    /* width: 100px; */
+    height: auto;
+    left:40vw;
+    top:35vh;
+}
+
+@media screen and (max-height: 700px) {
+    #dev-for-hire {
+        top:45vh;
+        content: url('../../static/img/dev_for_hire_long.png');
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    #dev-for-hire {
+        left: calc(max(550px,45vw));
+        width: 45vw;
+
+    }
+}
