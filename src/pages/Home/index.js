@@ -6,10 +6,7 @@ export const Home = () => {
   return (
     <>
       <div className="bg-image">
-        <img id="dev-for-hire"></img>
-        <Header/>
-        <p>Home</p>
-        <Footer/>
+        <img id="logo"></img>
       </div>
     </>
   )

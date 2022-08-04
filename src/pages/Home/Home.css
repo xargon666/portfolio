@@ -8,19 +8,19 @@
     background-image: url('../../static/img/background/LANDING\ PAGE\ BG.png')
 }
 
-#dev-for-hire {
+#logo {
     position:absolute;
     content: url('../../static/img/logo/WEB\ DEV\ FOR\ HIRE\ MAIN.png');
-    width: calc(max(700px,55vw));
+    width: calc(max(700px,50vw));
     height: auto;
     left:10vw;
-    top:25vh;
+    top: 28vh;
 }
-
+/* 
 @media screen and (max-width: 1300px) {
     #dev-for-hire {
         left: calc(max(550px,45vw));
         width: 45vw;
 
     }
-}
+} */
