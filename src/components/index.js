@@ -1,3 +1,5 @@
-export {default as Header} from './Header'
-export {default as Footer} from './Footer'
-export {default as Calculator} from './Calculator'
+export { Header} from './Header'
+export { Footer} from './Footer'
+export { Calculator} from './Calculator'
+export { Hamburger } from './Hamburger'
+export { default as Carousel } from './Carousel'

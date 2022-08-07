@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 
-const Calculator = () => {
+export const Calculator = () => {
     const [calc, setCalc] = useState("");
     const [previousCalc, setPreviousCalc] = useState("");
     const [ceState, setCeState] = useState(false);
@@ -21,8 +21,8 @@ const Calculator = () => {
         e.stopPropagation();
         const op = operators.includes(value)
         const sizeLimit = calc.length > 8 && !op
-        if (op && calc === '' || 
-            op && operators.includes(calc.slice(-2,-1))
+        if ((op && calc === '') || 
+            (op && operators.includes(calc.slice(-2,-1)))
         ) {return}
 
         switch (value) {
@@ -255,4 +255,3 @@ const Calculator = () => {
     );
 };
 
-export default Calculator;

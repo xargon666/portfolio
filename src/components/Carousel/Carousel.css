@@ -1,0 +1,51 @@
+
+
+.slide {
+    height: 100%;
+}
+
+.carousel-root,
+.carousel,
+.slider-wrapper,
+.slide,
+.slider,
+.card-wrapper {
+    height: 100% !important;
+    max-width: 100% !important;
+}
+
+/* .carousel .card-wrapper .carousel-wrapper .slide .legend .captions {
+    position:static !important;
+    width: auto !important;
+    height: 100px !important;
+} */
+
+.carousel-img {
+    max-width: 50%;
+    margin-left:1rem;
+}
+
+
+.caption {
+    grid-area: "caption";
+}
+
+.card-content h1 {
+    margin-bottom: 1.5rem;
+}
+
+/* 
+.carousel, .card-wrapper, .slider-wrapper, .carousel-root, .carousel-slider, .caption {
+    overflow: visible;
+    overflow-wrap: normal;
+    white-space: nowrap; 
+    border: 1px solid transparent !important;
+    word-break: keep-all;
+} 
+*/
+
+/* .caption {
+    position:absolute;
+    margin-right:-250px;
+    
+} */
