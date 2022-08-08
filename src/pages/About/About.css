@@ -1,3 +1,7 @@
 #bg-about{
     background-image: url('../../static/img/background/rainbow.png')
 }
+
+.profile-text {
+    font-size:1.2rem;
+}
