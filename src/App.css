@@ -86,3 +86,49 @@ body {
     margin: 0 2rem 0 0.5rem;
 }
 
+@media (max-width: 720px) {
+    .bm-burger-button  {
+        right:10px !important;
+        top:10px !important;
+    }
+
+    .card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "card-img" 
+        "card-content";
+    }
+
+    .carousel-img {
+        margin: 0;
+    }
+
+    .container {
+        width:100%
+    }
+
+    .carousel-status{
+        width:100%;
+        top:-5px;
+    }
+
+    .control-dots{
+        top:-16px;
+        max-height:20px;
+    }
+
+    .card-content{
+        margin-right:0px !important;
+        margin-left:0px !important;
+    }
+
+    .caption-header {
+        position:absolute;
+        top:47%;
+    }
+
+    .carousel-img{
+        margin-left:0px !important;
+    }
+}

@@ -1,7 +1,7 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
-    width: 7vw;
+    width: calc(max(75px,7vw));
     height: auto;
     right: 36px;
     top: 36px;
@@ -69,4 +69,18 @@
 /* Link Colours */
   .menu-item{
     color: white;
+  }
+
+  @media (max-width: 720px) {
+    .bm-menu-wrap {
+      height: 100vh !important;
+      width:100vw !important;
+    }
+
+    .bm-menu {
+      text-align:center;
+      font-size: 3rem;
+      height: 100vh !important;
+      width:100vw !important;
+    }
   }
