@@ -13,6 +13,11 @@ export const Hamburger = () => {
         if (!state.isOpen) setImgState(imgElement)
     }
     
+    const data = [
+        {id:"menu-home",dest:"/",text:"Home"},
+        {id:"menu-about",dest:"/about",text:"About"},
+        {id:"menu-portfolio",dest:"/portfolio",text:"Portfolio"}
+    ]
 
     return (
         <Menu
@@ -20,15 +25,11 @@ export const Hamburger = () => {
             onStateChange={isMenuOpen}
             customBurgerIcon={imgState}
         >
-            <Link id="menu-about" className="menu-item" to="/about">
-                About
+            {data.map((d)=>(
+                <Link id={d.id} className="menu-item" to={d.dest}>
+                {d.text}
             </Link>
-            <Link id="menu-home" className="menu-item" to="/">
-                Home
-            </Link>
-            <Link id="menu-portfolio" className="menu-item" to="/portfolio">
-                Portfolio
-            </Link>
+                ))}
         </Menu>
     );
 };
