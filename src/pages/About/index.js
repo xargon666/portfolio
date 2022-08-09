@@ -16,13 +16,17 @@ export const About = () => {
                         <p className="profile-text">
                             Something of an introvert, habitually looking off
                             into the distance, I've never been able to settle on
-                            anything for long. The complex problem solving and
+                            anything for long. 
+                            <br />
+                            <br />
+                            The complex problem solving and
                             creative design aspects of web development however
-                            really get me hooked. When I'm given a problem to
+                            <i>really</i> get me hooked. When I'm given a problem to
                             solve it's fun finding a solution, and I always
                             learn something along the way.
                             <br />
-                            <br />I have recently completed an intense 13 week
+                            <br />
+                            I have recently completed an intense 13 week
                             course with Futureproof to turbo charge my skillset,
                             and now feel confident calling myself a full-stack
                             developer. I'm looking forward to new challenges,
