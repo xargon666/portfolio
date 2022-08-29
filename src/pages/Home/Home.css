@@ -2,25 +2,34 @@
     background-image: url('../../static/img/background/LANDING\ PAGE\ BG.png')
 }
 
-#logo {
+#logo-main {
     position:absolute;
-    content: url('../../static/img/logo/WEB\ DEV\ FOR\ HIRE\ MAIN.png');
-    width: calc(max(700px,50vw));
-    height: auto;
+    content: url('../../static/img/logo/logo_main_with_sub.png');
+    width: auto;
+    height: 50vh;
     left:10vw;
     top: 28vh;
 }
+#logo-contact {
+    position:absolute;
+    content: url('../../static/img/logo/logo_contact.png');
+    width: auto;
+    height: 8.1vh;
+    left:10.5vw;
+    top: 79vh;
+}
 
-#logo:hover {
+.logo-hover:hover {
         -webkit-filter: drop-shadow(4px 4px 4px var(--light-blue));
         filter: drop-shadow(4px 4px 4px var(--light-blue));
 }
 
-/* 
-@media screen and (max-width: 1300px) {
-    #dev-for-hire {
-        left: calc(max(550px,45vw));
-        width: 45vw;
 
+@media screen and (max-width: 1000px) {
+    #logo-main {
+        left:2.8vw;
+    }    
+    #logo-contact {
+        left:3.5vw;
     }
-} */
+}

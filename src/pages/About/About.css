@@ -1,7 +1,65 @@
-#bg-about{
-    background-image: url('../../static/img/background/rainbow.png')
+#bg-about {
+    background-image: url("../../static/img/background/rainbow.png");
+}
+
+.profile-wrapper {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "profile-pic profile-content";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 2vw;
+    place-items: center;
+    /* fixes line breaks */
+    white-space: pre-line;
+}
+
+#profile-pic {
+    background-image: url("../../static/img/profile/profile.jpg");
+    height: 70vh;
+    width: auto;
+    min-height: 100px;
+    border-radius: 15px;
+    grid-area: "profile-pic";
+}
+
+.profile-content {
+    max-height: 600px;
+    grid-area: "profile-content";
 }
 
 .profile-text {
-    font-size:1.2rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .profile-text {
+        font-size: calc(max(15px, 1.8vw));
+        padding-left: 5px;
+    }
+    #profile-pic {
+        height: auto;
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #profile-pic {
+        height: 30vh;
+        width: auto;
+    }
+
+    .profile-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr 2fr;
+        grid-template-areas:
+            "profile-content"
+            "profile-pic";
+    }
+
+    .profile-text {
+        font-size: 17px;
+    }
 }

@@ -1,18 +1,14 @@
 import React from "react";
 import "./About.css";
-import img from "../../static/img/profile/profile.jpg";
+import profile_img from "../../static/img/profile/profile.jpg" 
 export const About = () => {
     return (
         <div className="main-container bg-image" id="bg-about">
             <div className="container">
-                <div className="card-wrapper">
-                    <div className="card-img">
-                        <img
-                            src={img}
-                            alt="profile pic"
-                        />
-                    </div>
-                    <div className="card-content">
+                <div className="profile-wrapper">
+                    <img id="profile-pic" alt="profile-pic" src={profile_img}></img>
+                    
+                    <div className="profile-content">
                         <p className="profile-text">
                             Something of an introvert, habitually looking off
                             into the distance, I've never been able to settle on

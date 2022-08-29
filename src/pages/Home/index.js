@@ -8,7 +8,10 @@ export const Home = () => {
         <>
             <div className="main-container bg-image" id="bg-home">
                 <Link to="/about">
-                  <div id="logo"></div>
+                  <div class="logo-hover" id="logo-main"></div>
+                </Link>
+                <Link to="/contact">
+                  <div class="logo-hover" id="logo-contact"></div>
                 </Link>
             </div>
         </>
