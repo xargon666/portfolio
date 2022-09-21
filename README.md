@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Development Setup
+
+To install and initialize the project locally, you must first install dependencies.
+
+After cloning the repo, run the following commands from the root dir:
+```
+npm i
+npm start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
